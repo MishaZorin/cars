@@ -34,6 +34,7 @@ body{
 .main-page{
     display: flex;
     justify-content: space-between;
+    border: 2px solid gray;
 }
 .container{
     width: 1000%;
@@ -83,6 +84,9 @@ form{
 .display{
     display: flex;
     justify-content: center;
+}
+.display a{
+    margin: 20px 20px;
 }
 input{
     margin-top: 120px;
